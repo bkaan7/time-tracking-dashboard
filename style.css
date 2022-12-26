@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;800&display=swap');
+
+
+
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(226, 43%, 10%);
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.container {
+  width: 1000px !important;
+  height: 630px !important;
+}
+
+.profileBox {
+  width: 220px;
+  height: 500px;
+  background-color: hsl(235, 46%, 20%);
+  margin-right: 15px;
+  border-radius: 15px;
+}
+
+.name{
+    font-size: 46px;
+    color: #fff;
+}
+
+.rep{
+    color: hsl(236, 100%, 87%);
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.proImg{
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+
+.box1-1 {
+  width: 220px;
+  height: 350px;
+  background-color: hsl(235, 45%, 61%);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.box1-2 {
+  background-color: hsl(235, 46%, 20%);
+  width: 220px;
+  height: 235px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+
+  
+}
+
+.buttons {
+  border: none;
+  color: hsl(236, 100%, 87%);
+  background-color: hsl(235, 46%, 20%);
+  text-align: left;
+}
+
+.cntnr:hover{
+background-color:hsl(246, 80%, 60%)!important ;
+cursor: pointer;
+}
+
+.workBox {
+  width: 220px;
+  height: 250px;
+  border-radius: 15px;
+  color: #fff;
+  margin-right: 15px;
+
+}
+
+.background {
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 15px 15px 0 0;
+  width: 220px;
+  height: 50px;
+  margin-bottom: -15px;
+  z-index: 0;
+  position: relative;
+}
+
+.cntnr {
+  z-index: 1;
+  position: relative;
+  width: 220px;
+  height: 250px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bck-img {
+  width: 55px !important;
+  height: 55px !important;
+}
+
+.worker {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.hours {
+  font-size: 52px;
+  padding: 20px;
+}
+
+.weekhours {
+  color: hsl(236, 100%, 87%);
+}
+
+.exerciseBox {
+  width: 220px;
+  height: 250px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.background2 {
+  background-color: hsl(145, 58%, 55%);
+  width: 220px;
+  height: 50px;
+  margin-bottom: -15px;
+  z-index: 0;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+}
+
+.background3 {
+  background-color: hsl(195, 74%, 62%);
+  width: 220px;
+  height: 50px;
+  margin-bottom: -15px;
+  z-index: 0;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+}
+
+.background4 {
+  background-color: hsl(264, 64%, 52%);
+  width: 220px;
+  height: 50px;
+  margin-bottom: -15px;
+  z-index: 0;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+}
+
+.background5 {
+  background-color: hsl(348, 100%, 68%);
+  width: 220px;
+  height: 50px;
+  margin-bottom: -15px;
+  z-index: 0;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+}
+
+.background6 {
+  background-color: hsl(43, 84%, 65%);
+  width: 220px;
+  height: 50px;
+  margin-bottom: -15px;
+  z-index: 0;
+  position: relative;
+  border-radius: 15px 15px 0 0;
+}
